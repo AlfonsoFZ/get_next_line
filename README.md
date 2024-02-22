@@ -10,28 +10,28 @@ This function will return the line that was just read. If there is nothing more 
 
 The returned line will end with the character \n (line break), except if the end of the file has been reached and it does not end with a character \n(line break).
 
-##The function prototype is:
+**The function prototype is:
 
 `char *get_next_line(int fd);`
 
-##Requirements:
+**Requirements:
 
 The program compiles with the -D BUFFER_SIZE=xx flag. This flag is used to determine the buffer size of the reads of the get_next_line() function.
 
 The program compiles with and without the flag (-D BUFFER_SIZE=xxx). By default its value will be 42.
 
-##Functions allowed:
+**Functions allowed:
 
 - read
 - malloc
 - free
 
-##Specifics restrictions:
+**Specifics restrictions:
 
 - Libft is not allowed
 - lseek is forbidden
 - Global variables are not allowed
 
-##Bonus part: 
+**Bonus part: 
 
 The project has to be implemented with a single static variable and it should be able to manage multiple fd at the same time.
